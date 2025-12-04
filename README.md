@@ -1,0 +1,1 @@
+ - Creamos la maquina de nginx 2.
