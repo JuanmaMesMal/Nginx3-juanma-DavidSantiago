@@ -13,4 +13,12 @@
 ![Certs](img/certs.png)
 - Generamos los certificados dentro de certs.
 ![Generar Certificados](img/dockerrun.png)
-- 
+
+## Configuracion
+- Ahora que tengo el certificado, le voy a decir a Nginx que use el certificado que he descargado.
+- Nos volvemos al .conf que habia creado, y lo configuro añadiendole las rutas creadas dentro del contenedor.
+![](img/Editarbloc.png)
+- Levantamos el Docker para ver si funciona.
+![](img/levantardocker.png)
+- Lo ejecutamos en local para asegurarnos http://juanma-davids.test:8080
+![](img/correcto.png)
