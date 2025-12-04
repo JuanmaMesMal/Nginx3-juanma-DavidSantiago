@@ -12,7 +12,8 @@
 ![Descargamos UFW y miramos status](assets/img/UFWdescargaStatus.png)
 - Vemos que esta inactivo, así que vamos a activar los perfiles para permitir el trafico de https
 ![Descargamos UFW y miramos status](assets/img/ActivamosUFW.png)
-
+comprobamos ahora el status de nuevo y vemos si esta activo.
+![Status Activo](assets/img/StatusActivo.png)
 
 
 ## Configuracion Nginx
