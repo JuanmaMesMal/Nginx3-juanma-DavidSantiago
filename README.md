@@ -1,1 +1,2 @@
  - Creamos la maquina de nginx 2.
+ - hola soy David
