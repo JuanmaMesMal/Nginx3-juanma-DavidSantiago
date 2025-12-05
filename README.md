@@ -25,6 +25,14 @@ comprobamos ahora el status de nuevo y vemos si esta activo.
 ![Crear SSL](assets/img/CrearSSL.png)
 - Ahora configuramos el ssl, ahora vamos a nuestro sitio, (sites-available) y añadimos lo siguiente
 ![SSL añadimos a sites-avalilable](assets/img/SSLsites-available.png)
+ - comprobamos que esta todo ok y reiniciamos el servicios
+ ![Comprobar y reiniciar ssl](assets/img/comprobarssl.png)
+ - y por ultimo comprobar su funcionamiento en web.
+   -  He cometido un error por lo cual no me funciona, lo que se me ha olvidado es poner en el sites-available el listen 443 ssl;
+    ![Añadir listen](assets/img/añadirlisten.png) 
+ ![Comprobar WEB](assets/img/pruebaweb.png) 
+si le damos a avanzado y continuar con la pagina ya nos dejaria entrar.
+ ![Ya sirve](assets/img/yasirve.png) 
 
 
 
