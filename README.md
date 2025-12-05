@@ -15,6 +15,18 @@
 comprobamos ahora el status de nuevo y vemos si esta activo.
 ![Status Activo](assets/img/StatusActivo.png)
 
+### Certificado autofirmado
+ - Necesitamos crear una clave ssl y el certificado usamos el comando openssl. como es una sentencia larga para dividierlo en varias linea se utiliza "\"
+   - comando utilizado 
+        sudo openssl req -x509 -nodes -days 365 \
+        -newkey rsa:2048 -keyout /etc/ssl/private/juanma-davids.test.key \
+        -out /etc/ssl/certs/juanma-davids.test.crt
+- y respondemos a las preguntas que nos hacer, como country etc...
+![Crear SSL](assets/img/CrearSSL.png)
+- Ahora configuramos el ssl, ahora vamos a nuestro sitio, (sites-available) y añadimos lo siguiente
+![SSL añadimos a sites-avalilable](assets/img/SSLsites-available.png)
+
+
 
 ## Configuracion Nginx
 - En la practica Nginx creamos un archivo nuevo llamado conf, donde creare un bloc de notas donde pondre la ruta y un dominio de pruebas.
